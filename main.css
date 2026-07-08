@@ -192,6 +192,13 @@ nav a.active::after{
   }
 } 
 
+.hero-header{
+  line-height:1.15;
+  font-weight:900;
+  color:#1B1B1B;
+  margin-top:20px;
+}
+
 .hero-subtitle {
   font-size: 20px;
   line-height: 1.65;
