@@ -7,3 +7,7 @@ window.addEventListener("scroll",()=>{
         header.classList.remove("scrolled");
     }
 });
+
+
+const navLinks = document.querySelectorAll("nav a");
+const sections = document.querySelectorAll("section");
