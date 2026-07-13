@@ -28,11 +28,11 @@ body {
 }
 
 .logo {
-  width: 200px;
-  height: 90px;
+  width: 220px;
+  height: 100px;
   display: flex;
   align-items: center;
-  gap: 5px;
+  margin-top:10px;
 }
 
 header {
