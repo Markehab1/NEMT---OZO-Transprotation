@@ -5,7 +5,7 @@ const faqItems = document.querySelectorAll(".faq-item");
 
 /* -------------------- 1. Header background on scroll -------------------- */
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 50) {
+  if (window.scrollY > 30) {
     header.classList.add("scrolled");
   } else {
     header.classList.remove("scrolled");
@@ -55,7 +55,7 @@ function updateActiveLink() {
 window.addEventListener("scroll", updateActiveLink);
 updateActiveLink();
 
-/* -------------------- 4. FAQ accordion -------------------- */
+/* -------------------- 4. FAQ -------------------- */
 faqItems.forEach((item) => {
   const question = item.querySelector(".faq-question");
   const answer = item.querySelector(".faq-answer");
@@ -92,4 +92,18 @@ navLinks.forEach(link => {
     navMenu.classList.remove("nav-open");
     hamburgerBtn.classList.remove("active");
   });
+});
+
+document.addEventListener("click", (e) => {
+  const isClickInsideNav = navMenu.contains(e.target);
+  const isClickOnHamburger = hamburgerBtn.contains(e.target);
+
+  if (
+    navMenu.classList.contains("nav-open") &&
+    !isClickInsideNav &&
+    !isClickOnHamburger
+  ) {
+    navMenu.classList.remove("nav-open");
+    hamburgerBtn.classList.remove("active");
+  }
 });
