@@ -107,3 +107,17 @@ document.addEventListener("click", (e) => {
     hamburgerBtn.classList.remove("active");
   }
 });
+
+
+// lock scroll while loading
+document.body.classList.add("loading");
+
+window.addEventListener("load", () => {
+  const preloader = document.getElementById("preloader");
+  preloader.classList.add("hidden");
+  document.body.classList.remove("loading");
+
+  preloader.addEventListener("transitionend", () => {
+    preloader.remove();
+  });
+});

@@ -4,6 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NEMT - OZO Transportation</title>
+    <meta
+      name="description"
+      content="Safe, reliable non-emergency medical transportation for dialysis, hospital visits, and appointments. ADA-accessible vehicles, 24/7 dispatch. Book your ride today."
+    />
+    <link rel="canonical" href="https://www.ozotransportation.com/" />
+    <!-- Open Graph (for social shares) -->
+    <meta
+      property="og:title"
+      content="OZO Transportation — Non-Emergency Medical Transportation"
+    />
+    <meta
+      property="og:description"
+      content="Compassionate, ADA-accessible rides to medical appointments, dialysis, and hospital visits."
+    />
+    <meta
+      property="og:image"
+      content="https://www.ozotransportation.com/images/hero.png"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.ozotransportation.com/" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+
     <link rel="stylesheet" href="main.css" />
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,8 +41,34 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
     <link rel="icon" href="images/logo2.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "OZO Transportation",
+        "description": "Non-emergency medical transportation services including dialysis rides, wheelchair transportation, and hospital discharge transport.",
+        "telephone": "+15551234567",
+        "email": "info@ozotransportation.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Main Street, Suite 100"
+        },
+        "openingHours": "Mo-Fr 07:00-19:00"
+      }
+    </script>
   </head>
   <body>
+    <div class="preloader" id="preloader">
+      <div class="preloader-content">
+        <img
+          src="images/Logo.png"
+          alt="OZO Transportation"
+          class="preloader-logo"
+        />
+        <div class="preloader-spinner"></div>
+      </div>
+    </div>
     <div class="container">
       <header>
         <a href="#home"
@@ -48,7 +97,8 @@
             <span class="badge-dot"></span>
             <span class="title">Non-Emergency Medical Transportation</span>
           </div>
-          <h1 class="hero-header">Safe & Reliable <br />Non-Emergency <br />Medical Transportation
+          <h1 class="hero-header">
+            Safe & Reliable <br />Non-Emergency <br />Medical Transportation
           </h1>
           <p class="hero-subtitle">
             Compassionate rides to medical appointments, dialysis, hospital
