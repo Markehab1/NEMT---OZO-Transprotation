@@ -1185,6 +1185,7 @@ body {
   .logo {
     width: 120px;
     height: 55px;
+    margin-left: -35px;
   }
 
   .hero-header {
