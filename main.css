@@ -72,7 +72,6 @@ body.loading {
 body {
   background-color: #f8faf9;
   color: var(--text-color);
-  /* height: 3000px; */
 }
 
 .container {
@@ -839,6 +838,23 @@ body {
     padding: 0 25px;
   }
 
+  .logo {
+    margin-left:-60px;
+  }
+
+  ul {
+  gap: 40px;
+}
+
+
+.btn {
+  gap: 10px;
+  margin-right: -5px;
+  font-size: 12px;
+  margin-top:15px;
+}
+
+
   .hero {
     flex-direction: column;
     margin-top: 100px;
@@ -928,7 +944,6 @@ body {
     margin-top: 0;
   }
 
-  /* hamburger sits fixed relative to viewport, independent of nav's slide-in position */
   .hamburger {
     display: block;
     position: fixed;
