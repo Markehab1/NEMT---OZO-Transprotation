@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OZO Transportation</title>
+    <meta
+      name="description"
+      content="Safe, reliable non-emergency medical transportation for dialysis, hospital visits, and appointments. ADA-accessible vehicles, 24/7 dispatch. Book your ride today."
+    />
+    <link rel="canonical" href="https://www.ozotransportation.com/" />
+    <!-- Open Graph (for social shares) -->
+    <meta
+      property="og:title"
+      content="OZO Transportation — Non-Emergency Medical Transportation"
+    />
+    <meta
+      property="og:description"
+      content="Compassionate, ADA-accessible rides to medical appointments, dialysis, and hospital visits."
+    />
+    <meta
+      property="og:image"
+      content="https://www.ozotransportation.com/images/hero.png"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.ozotransportation.com/" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="stylesheet" href="requestAride.css" />
+    <link rel="stylesheet" href="main.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Yuyu&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awsome for the icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="icon" href="images/logo2.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "OZO Transportation",
+        "description": "Non-emergency medical transportation services including dialysis rides, wheelchair transportation, and hospital discharge transport.",
+        "telephone": "+15551234567",
+        "email": "info@ozotransportation.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Main Street, Suite 100"
+        },
+        "openingHours": "Mo-Fr 07:00-19:00"
+      }
+    </script>
+  </head>
+  <body>
+    <div class="preloader" id="preloader">
+      <div class="preloader-content">
+        <img
+          src="images/Logo.png"
+          alt="OZO Transportation"
+          class="preloader-logo"
+        />
+        <div class="preloader-spinner"></div>
+      </div>
+    </div>
+    <div class="container">
+      <header>
+        <a href="#home"
+          ><img
+            class="logo"
+            src="images/Logo.png"
+            alt="OZO Transportation Logo"
+        /></a>
+        <nav>
+          <ul>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#FAQ">FAQ</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul> 
+          <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </nav>
+        <button
+          class="btn"
+          id="requestBtn"
+          onclick="location.href = 'requestAride.html'"
+        >
+          Request A Ride
+        </button>
+      </header>
+    </div>
+    <footer class="footer" id="contact">
+      <div class="footer-container">
+        <div class="footer-column1">
+          <img
+            src="images/logo2.png"
+            alt="OZO Transportation"
+            class="footer-logo"
+          />
+          <div class="beside-logo">
+            <p class="footer-p">
+              Providing safe, reliable, and<br />compassionate non-emergency
+              <br />medical transportation you can <br />count on.
+            </p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <hr class="footer-hr" />
+        <div class="footer-column2">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="requestAride.html">Request a Ride</a></li>
+            <li><a href="#FAQ">FAQ</a></li>
+          </ul>
+        </div>
+        <hr class="footer-hr" />
+        <div class="footer-column3">
+          <h3>Contact Us</h3>
+          <ul class="footer-contact">
+            <li>
+              <a href="tel:+15551234567"
+                ><i class="fa-solid fa-phone"></i> (555) 123-4567</a
+              >
+            </li>
+            <li>
+              <a href="mailto:info@ozotransportation.com"
+                ><i class="fa-solid fa-envelope"></i>
+                info@ozotransportation.com</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-location-dot"></i> 123 Main Street, Suite
+                100</a
+              >
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-clock"></i> Mon–Fri: 7am–7pm</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 OZO Transportation. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
